@@ -11,7 +11,7 @@ There is no database in this version. This is a point-and-clicker
 ## Running Locally
 
 ```sh
-git clone git@github.com:mishyTheBear/nodejs-template.git # or clone your own fork
+git clone git@github.com:hamishdickson/nodejs-template.git # or clone your own fork
 cd nodejs-template/app
 npm install
 node server.js
