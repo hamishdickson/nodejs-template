@@ -8,6 +8,9 @@ var app = express();
 var page_hdlr = require('./handlers/pages.js');
 var helpers = require('./handlers/helpers.js');
 
+var port = 8080;
+
+module.export.port = port;
 
 app.use(express.logger('dev'));
 app.use(express.bodyParser({ keepExtensions: true }));
@@ -29,4 +32,4 @@ function four_oh_four(req, res) {
 }
 
 console.log("Starting up server - port 8080");
-app.listen(8080);
+app.listen(port);
